@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
+  <defs>
+    <linearGradient id="csvGrad" x1="2" y1="2" x2="30" y2="30" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0D9488" />
+      <stop offset="50%" stop-color="#0891B2" />
+      <stop offset="100%" stop-color="#0284C7" />
+    </linearGradient>
+  </defs>
+  <!-- Background squircle -->
+  <rect x="2" y="2" width="28" height="28" rx="8" fill="url(#csvGrad)" />
+  
+  <!-- Table sheet cutout -->
+  <rect x="5.5" y="5.5" width="21" height="21" rx="4" fill="#FFFFFF" />
+  
+  <!-- Grid header bar -->
+  <rect x="5.5" y="5.5" width="21" height="6.5" rx="4" fill="#CCFBF1" />
+  
+  <!-- Grid columns -->
+  <rect x="8" y="7.5" width="4" height="2.5" rx="0.8" fill="#0D9488" />
+  <rect x="14" y="7.5" width="4" height="2.5" rx="0.8" fill="#0891B2" />
+  <rect x="20" y="7.5" width="4" height="2.5" rx="0.8" fill="#0891B2" />
+
+  <!-- Grid row cells -->
+  <rect x="8" y="14" width="4" height="1.8" rx="0.6" fill="#94A3B8" />
+  <rect x="14" y="14" width="4" height="1.8" rx="0.6" fill="#CBD5E1" />
+  <rect x="20" y="14" width="4" height="1.8" rx="0.6" fill="#CBD5E1" />
+
+  <rect x="8" y="17.5" width="4" height="1.8" rx="0.6" fill="#94A3B8" />
+  <rect x="14" y="17.5" width="4" height="1.8" rx="0.6" fill="#CBD5E1" />
+  <rect x="20" y="17.5" width="4" height="1.8" rx="0.6" fill="#CBD5E1" />
+
+  <!-- Magnifying Lens overlay (Lower Right) -->
+  <circle cx="21" cy="21" r="5" fill="#042F2E" stroke="#14B8A6" stroke-width="1.8" />
+  <circle cx="21" cy="21" r="2.2" fill="#5EEAD4" />
+  <path d="M24.5 24.5L28 28" stroke="#14B8A6" stroke-width="2" stroke-linecap="round" />
+</svg>
